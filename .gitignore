@@ -1,0 +1,13 @@
+# Credenciales locales (cada quien tiene la suya; se sube database.example.php)
+config/database.php
+
+# Documentos subidos por los usuarios (se conserva la carpeta vacía)
+uploads/documentos/*
+!uploads/documentos/.gitkeep
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
